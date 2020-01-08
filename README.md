@@ -1,4 +1,4 @@
-This document contains Azure Naming Convetions used by [https://adafy.com](Adafy).
+This document contains Azure Naming Convetions used by [Adafy](https://adafy.com).
 
 ## Subscription
 
