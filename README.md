@@ -12,7 +12,7 @@ Some of the resources has special naming conventions, so always check the guidel
 
 Here are some examples:
 
-​#### App service
+#### App service
 
 contoso-app-portal-test
 
