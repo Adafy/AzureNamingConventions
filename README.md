@@ -10,7 +10,7 @@ Some of the resources has special naming conventions, so always check the guidel
 
 {customer}-{resource type}-{app name}-{environment}
 
-Here's some examples:
+Here are some examples:
 
 ​#### App service
 
