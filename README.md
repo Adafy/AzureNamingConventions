@@ -1,72 +1,41 @@
-This document contains Azure Naming Convetions used by [Adafy](https://adafy.com).
+This document contains Azure Naming Conventions used by [Adafy](https://adafy.com).
 
-## Subscription
+## Guidelines
 
-Adafy customer project environment
+We use Microsoft's [recommended naming conventions]](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging).
 
-Customer and the project are and/or
+Some of the resources has special naming conventions, so always check the guideline before applying name.
 
-**Examples:**
+## Resource Naming Pattern
 
-* Adafy Contoso DevTest
-* Adafy InternalProject Dev
-* Adafy Sijoitusveikkaus Prod
+{customer}-{resource type}-{app name}-{environment}
 
-## Resource Group
+Here's some examples:
 
-customer/project-environment-rg
+​#### App service
 
-**Examples:**
+contoso-app-portal-test
 
-* contoso-devtest-rg
-* sijoitusveikkaus-prod-rg
+#### SQL database
 
-## Storage
+contoso-sqldb-users-prod
 
-adafycustomerenvironmentdata00x
+#### Virtual network naming
 
-**Examples:**
+contoso-vnet-prod-westeu-001
 
-* adafycontosodevtestdata001
-* adafysijoitusveikkausproddata001
+## Resource Tagging
 
-## App Service Plan
+The following tagging patterns are used:
 
-adafycustomerenvironmentplan00x
+### GDPR
 
-**Examples:**
+Resources that contains GDPR related customer data, must be marked with gdpr tag.
 
-* adafycontosodevtestplan001
+Example: Key: GDPR, Value: GDPR/True
 
-## App Service
+### Owner
 
-adafycustomerenvironmentpalvelusvc
+User who created (or owns) the resource, must be marked with Owner tag with the value of email address.​
 
-**Examples:**
-
-* adafysijoitusveikkauswebsvc
-* adafycontosodevtestportalsvc
-
-## Application Insights
-
-adafycustomerenvironmentpalveluinsights
-
-**Examples:**
-
-* adafycontosodevtestportalinsights
-
-## CosmosDB
-
-adafycustomerenvironmentcosmos00x
-
-**Examples:**
-
-* adafycontosodevtestcosmos001
-
-## Service Bus
-
-adafycustomerenvironmentsb00x
-
-**Examples:**
-
-* adafycontosodevtestsb001
+Example: Key: Owner, Value: xxx.yyy@adafy.com
