@@ -2,7 +2,7 @@ This document contains Azure Naming Conventions used by [Adafy](https://adafy.co
 
 ## Guidelines
 
-We use Microsoft's [recommended naming conventions]](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging).
+We use Microsoft's [recommended naming conventions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging).
 
 Some of the resources has special naming conventions, so always check the guideline before applying name.
 
