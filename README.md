@@ -39,3 +39,32 @@ Example: Key: GDPR, Value: GDPR/True
 User who created (or owns) the resource, must be marked with Owner tag with the value of email address.​
 
 Example: Key: Owner, Value: xxx.yyy@adafy.com
+
+## Common resources
+
+Following table contains most common resources, their prefixes and examples.
+{###} = number starting from 001.
+
+{Customer} = customer short name without spaces. For example contoso.
+
+{App Name} = Application/project name without spaces.
+
+{Environment} = dev,test,qa,stage or prod.
+
+{Region} = westus, eastus2, westeurope, usgovia
+
+|Resource Type|Prefix|Name|
+|---|---|---|
+|App Service plan|plan-|{Customer}-plan-{App Name}-{Environment}|
+|Azure SQL Database server|sql-|{Customer}-sql-{App Name}-{Environment}|
+|Azure SQL database|sqldb-|{Customer}-sqldb-{Database Name}-{Environment}|
+|Cosmos DB database|cosmos-|{Customer}-cosmos-{App Name}-{Environment}|
+|Function app|func-|{Customer}-func-{App Name}-{Environment}|
+|Event hub|evh-|{Customer}-evh-{App Name}-{Environment}|
+|Resource group|rg-|{Customer}-rg-{App Name}-{Environment}|
+|Service Bus|sb-|{Customer}-sb-{App Name}-{Environment}|
+|Service Bus queue|sbq-|sbq-{query descriptor}|
+|Service Bus topic|sbt-|sbt-{query descriptor}|
+|Storage account (general use)|st-|{Customer}st{storage name}{###}|
+|Virtual Machine|vm|{Customer}vm{App Name}{###}|
+|Virtual network|vnet|{Customer}-vnet-{App Name}-{Environment}|
