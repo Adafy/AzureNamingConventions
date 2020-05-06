@@ -57,6 +57,7 @@ Following table contains most common resources, their prefixes and examples.
 |---|---|---|
 |App Service (Web App)|app|{Customer}-app-{App Name}-{Environment}-{###}|
 |App Service plan|plan-|{Customer}-plan-{App Name}-{Environment}|
+|Azure Cognitive Search|srch-|{Customer}-srch-{App Name}-{Environment}|
 |Azure SQL Database server|sql-|{Customer}-sql-{App Name}-{Environment}|
 |Azure SQL database|sqldb-|{Customer}-sqldb-{Database Name}-{Environment}|
 |Cosmos DB database|cosmos-|{Customer}-cosmos-{App Name}-{Environment}|
