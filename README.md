@@ -22,7 +22,8 @@ contoso-sqldb-users-prod
 
 #### Virtual network naming
 
-contoso-vnet-prod-westeu-001
+contoso-vnet-app-prod
+contoso-vnet-portal-test
 
 ## Resource Tagging
 
