@@ -10,6 +10,8 @@ Some of the resources have special naming conventions. Always check the guidelin
 
 {customer}-{resource type}-{app name}-{environment}
 
+For resources that does not support hyphens in names, just leave the hyphens out.
+
 Here are some examples:
 
 #### App service
@@ -52,7 +54,7 @@ Following table contains most common resources, their prefixes and examples.
 
 {Environment} = dev,test,qa,stage or prod.
 
-{Region} = westus, eastus2, westeurope, usgovia
+{Region} = wus (west us), eus2 (east us2), we (west europe), ugov (usgovia)
 
 |Resource Type|Prefix|Name|
 |---|---|---|
@@ -64,6 +66,7 @@ Following table contains most common resources, their prefixes and examples.
 |Cosmos DB database|cosmos-|{Customer}-cosmos-{App Name}-{Environment}|
 |Function app|func-|{Customer}-func-{App Name}-{Environment}|
 |Event hub|evh-|{Customer}-evh-{App Name}-{Environment}|
+|Recovery Services Vault|rsvault|{Customer}rsvault{Region}{Environment}|
 |Resource group|rg-|{Customer}-rg-{App Name}-{Environment}|
 |Service Bus|sb-|{Customer}-sb-{App Name}-{Environment}|
 |Service Bus queue|sbq-|sbq-{query descriptor}|
