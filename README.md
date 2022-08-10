@@ -70,6 +70,7 @@ Following table contains most common resources, their prefixes and examples.
 |Recovery Services Vault|rsvault|{Customer}rsvault{Region}{Environment}|
 |Resource group|rg-|{Customer}-rg-{App Name}-{Environment}|
 |Service Bus|sb-|{Customer}-sb-{App Name}-{Environment}|
+|Service Bus Namespace|sbns-|{Customer}-sbns-{App Name}-{Environment}|
 |Service Bus queue|sbq-|sbq-{query descriptor}|
 |Service Bus topic|sbt-|sbt-{query descriptor}|
 |Storage account (general use)|st-|{Customer}st{storage name}{###}|
