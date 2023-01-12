@@ -67,6 +67,7 @@ Following table contains most common resources, their prefixes and examples.
 |Cosmos DB database|cosmos-|{Customer}-cosmos-{App Name}-{Environment}|
 |Function app|func-|{Customer}-func-{App Name}-{Environment}|
 |Event hub|evh-|{Customer}-evh-{App Name}-{Environment}|
+|Logic Apps|logic-|{Customer}-logic-{App Name}-{Environment}|
 |Recovery Services Vault|rsvault|{Customer}rsvault{Region}{Environment}|
 |Resource group|rg-|{Customer}-rg-{App Name}-{Environment}|
 |Service Bus|sb-|{Customer}-sb-{App Name}-{Environment}|
