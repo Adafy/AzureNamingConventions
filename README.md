@@ -58,6 +58,7 @@ Following table contains most common resources, their prefixes and examples.
 
 |Resource Type|Prefix|Name|
 |---|---|---|
+|Application Insights|ai-|{Customer}-ai-{App Name}-{Environment}|
 |App Service (Web App)|app|{Customer}-app-{App Name}-{Environment}-{###}|
 |App Service plan|plan-|{Customer}-plan-{App Name}-{Environment}|
 |Azure Cognitive Search|srch-|{Customer}-srch-{App Name}-{Environment}|
@@ -68,6 +69,7 @@ Following table contains most common resources, their prefixes and examples.
 |Function app|func-|{Customer}-func-{App Name}-{Environment}|
 |Event hub|evh-|{Customer}-evh-{App Name}-{Environment}|
 |Logic Apps|logic-|{Customer}-logic-{App Name}-{Environment}|
+|Open AI|openai-|{Customer}-openai-{App Name}-{Environment}|
 |Recovery Services Vault|rsvault|{Customer}rsvault{Region}{Environment}|
 |Resource group|rg-|{Customer}-rg-{App Name}-{Environment}|
 |Service Bus|sb-|{Customer}-sb-{App Name}-{Environment}|
