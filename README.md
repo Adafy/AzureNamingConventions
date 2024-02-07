@@ -56,6 +56,8 @@ Following table contains most common resources, their prefixes and examples.
 
 {Region} = wus (west us), eus2 (east us2), we (west europe), ugov (usgovia)
 
+{Pricing Tier} = free, s1, p1 etc. Used when there can be only one resource of certain pricing tier. This replaces environment, because freetier might be used in production also.
+
 |Resource Type|Prefix|Name|
 |---|---|---|
 |Application Insights|ai-|{Customer}-ai-{App Name}-{Environment}|
@@ -66,6 +68,7 @@ Following table contains most common resources, their prefixes and examples.
 |Azure SQL database|sqldb-|{Customer}-sqldb-{Database Name}-{Environment}|
 |Backup Vault|bvault-|{Customer}-bvault-{Environment}|
 |Cosmos DB database|cosmos-|{Customer}-cosmos-{App Name}-{Environment}|
+|Custom vision|cvision-|{customer}-cvision-{Pricing Tier}|
 |Function app|func-|{Customer}-func-{App Name}-{Environment}|
 |Event hub|evh-|{Customer}-evh-{App Name}-{Environment}|
 |Logic Apps|logic-|{Customer}-logic-{App Name}-{Environment}|
