@@ -46,7 +46,7 @@ Example: Key: Owner, Value: xxx.yyy@adafy.com
 ## Common resources
 
 Following table contains most common resources, their prefixes and examples.
-{###} = number starting from 001.
+{###} = number starting from 001, if there are more than one resource with same name.
 
 {Customer} = customer short name without spaces. For example contoso.
 
@@ -61,7 +61,7 @@ Following table contains most common resources, their prefixes and examples.
 |Resource Type|Prefix|Name|
 |---|---|---|
 |Application Insights|ai-|{Customer}-ai-{App Name}-{Environment}|
-|App Service (Web App)|app|{Customer}-app-{App Name}-{Environment}-{###}|
+|App Service (Web App)|app|{Customer}-app-{App Name}-{Environment}|
 |App Service plan|plan-|{Customer}-plan-{App Name}-{Environment}|
 |Azure Cognitive Search|srch-|{Customer}-srch-{App Name}-{Environment}|
 |Azure SQL Database server|sql-|{Customer}-sql-{App Name}-{Environment}|
@@ -80,14 +80,14 @@ Following table contains most common resources, their prefixes and examples.
 |Service Bus queue|sbq-|sbq-{query descriptor}|
 |Service Bus topic|sbt-|sbt-{query descriptor}|
 |Storage account (general use)|st-|{Customer}st{storage name}{###}|
-|Virtual Machine|vm|{Customer}vm{App Name}{###}|
+|Virtual Machine|vm|{Customer}vm{App Name}|
 |Virtual network|vnet|{Customer}-vnet-{App Name}-{Environment}|
 
 ## Fabric Naming Conventions
 In Fabric the naming convention is driven by the size of the Fabric instance. In large instances we might want to specify role of the user (data engineer, data analyst etc.), but 
 in minor instances we don't need to add it.
 
-Recommended naming convention is {resource type}_{layer}_{usage}.
+Recommended naming convention is {resource type}{layer}{usage}, separated with undescores.
 For example if we had to create a Lakehouse for raw financial data, we could call it
 LH_RAW_Financial
 
