@@ -82,3 +82,38 @@ Following table contains most common resources, their prefixes and examples.
 |Storage account (general use)|st-|{Customer}st{storage name}{###}|
 |Virtual Machine|vm|{Customer}vm{App Name}{###}|
 |Virtual network|vnet|{Customer}-vnet-{App Name}-{Environment}|
+
+## Fabric Naming Conventions
+In Fabric the naming convention is driven by the size of the Fabric instance. In large instances we might want to specify role of the user (data engineer, data analyst etc.), but 
+in minor instances we don't need to add it.
+
+Recommended naming convention is {resource type}_{layer}_{usage}.
+For example if we had to create a Lakehouse for raw financial data, we could call it
+LH_RAW_Financial
+
+Resource type and layer all all caps and usage/name of the component is as capitalized word.
+
+## Common resources
+|Resource Type|Prefix|
+|Dataset|DS|
+|Dataflow|DFL|
+|Datamart|DM|
+|Pipeline|PL|
+|Dataflow|DFL|
+|Lakehouse|LH|
+|Notebook|NB|
+|Spark Job Definition|SJ|
+|Model|MDL|
+|Experiment|EXP|
+|Warehouse|WH|
+|Database|DB|
+|Queryset|QS|
+|Eventstream|ES|
+
+## Data layers
+|Layer|Prefix|
+|Raw/unmodified data|RAW|
+|Modified/ready for BI usage in small instances|SILVER|
+|Ready for BI usage in large instances|GOLD|
+
+
