@@ -95,6 +95,7 @@ Resource type and layer all all caps and usage/name of the component is as capit
 
 ## Common resources
 |Resource Type|Prefix|
+|---|---|
 |Dataset|DS|
 |Dataflow|DFL|
 |Datamart|DM|
@@ -112,6 +113,7 @@ Resource type and layer all all caps and usage/name of the component is as capit
 
 ## Data layers
 |Layer|Prefix|
+|---|---|
 |Raw/unmodified data|RAW|
 |Modified/ready for BI usage in small instances|SILVER|
 |Ready for BI usage in large instances|GOLD|
