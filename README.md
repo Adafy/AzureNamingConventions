@@ -69,6 +69,7 @@ Following table contains most common resources, their prefixes and examples.
 |Backup Vault|bvault-|{Customer}-bvault-{Environment}|
 |Cosmos DB database|cosmos-|{Customer}-cosmos-{App Name}-{Environment}|
 |Custom vision|cvision-|{customer}-cvision-{Pricing Tier}|
+|Document Intelligence|docint-|{customer}-docint-{App Name}-{Pricing Tier}|
 |Function app|func-|{Customer}-func-{App Name}-{Environment}|
 |Event hub|evh-|{Customer}-evh-{App Name}-{Environment}|
 |Logic Apps|logic-|{Customer}-logic-{App Name}-{Environment}|
