@@ -81,7 +81,7 @@ Following table contains most common resources, their prefixes and examples.
 |Service Bus queue|sbq-|sbq-{query descriptor}|
 |Service Bus topic|sbt-|sbt-{query descriptor}|
 |Storage account (general use)|st-|{Customer}st{storage name}{###}|
-|Virtual Machine|vm|{Customer}vm{App Name}|
+|Virtual Machine|vm|{Customer}-vm-{App Name}-{environment}|
 |Virtual network|vnet|{Customer}-vnet-{App Name}-{Environment}|
 
 ## Fabric Naming Conventions
