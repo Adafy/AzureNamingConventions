@@ -105,6 +105,7 @@ Resource type and layer all all caps and usage/name of the component is as capit
 |Lakehouse|LH|
 |Notebook|NB|
 |Spark Job Definition|SJ|
+|Semantic Model|SM|
 |Model|MDL|
 |Experiment|EXP|
 |Warehouse|WH|
@@ -115,7 +116,7 @@ Resource type and layer all all caps and usage/name of the component is as capit
 ## Data layers
 |Layer|Prefix|
 |---|---|
-|Raw/unmodified data|RAW|
+|Raw/unmodified data|BRONZE|
 |Modified/ready for BI usage in small instances|SILVER|
 |Ready for BI usage in large instances|GOLD|
 
