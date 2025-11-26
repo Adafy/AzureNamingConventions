@@ -90,7 +90,7 @@ in minor instances we don't need to add it.
 
 Recommended naming convention is {resource type}{layer}{usage}, separated with undescores.
 For example if we had to create a Lakehouse for raw financial data, we could call it
-LH_RAW_Financial
+LH_BRONZE_Financial
 
 Resource type and layer all all caps and usage/name of the component is as capitalized word.
 
