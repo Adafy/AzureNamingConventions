@@ -97,22 +97,25 @@ Resource type and layer all all caps and usage/name of the component is as capit
 ## Common resources
 |Resource Type|Prefix|
 |---|---|
+|Activator|AC|
 |Dataset|DS|
 |Dataflow|DFL|
 |Datamart|DM|
-|Pipeline|PL|
-|Dataflow|DFL|
+|Eventstream|ES|
+|Environment|EN|
 |Lakehouse|LH|
 |Notebook|NB|
+|Pipeline|PL|
 |Spark Job Definition|SJ|
 |Semantic Model|SM|
+|SQL Database|DB|
 |Mirrored Database|MR|
 |Model|MDL|
 |Experiment|EXP|
 |Warehouse|WH|
 |Database|DB|
 |Queryset|QS|
-|Eventstream|ES|
+|Report|RP|
 
 ## Data layers
 |Layer|Prefix|
