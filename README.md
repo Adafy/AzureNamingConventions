@@ -106,6 +106,7 @@ Resource type and layer all all caps and usage/name of the component is as capit
 |Notebook|NB|
 |Spark Job Definition|SJ|
 |Semantic Model|SM|
+|Mirrored Database|MR|
 |Model|MDL|
 |Experiment|EXP|
 |Warehouse|WH|
