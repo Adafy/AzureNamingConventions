@@ -88,7 +88,7 @@ Following table contains most common resources, their prefixes and examples.
 In Fabric the naming convention is driven by the size of the Fabric instance. In large instances we might want to specify role of the user (data engineer, data analyst etc.), but 
 in minor instances we don't need to add it.
 
-Recommended naming convention is {resource type}{layer}{usage}, separated with undescores.
+Recommended naming convention is {resource type} {layer} {usage}, separated with undescores.
 For example if we had to create a Lakehouse for raw financial data, we could call it
 LH_BRONZE_Financial
 
@@ -123,5 +123,23 @@ Resource type and layer all all caps and usage/name of the component is as capit
 |Raw/unmodified data|BRONZE|
 |Modified/ready for BI usage in small instances|SILVER|
 |Ready for BI usage in large instances|GOLD|
+
+## Tables
+|Suffix|Purpose|
+|---|---|
+|dim|Dimensional data|
+|fact|Factual data|
+
+Tables should use fact or dim suffix to indicate what is the purpose of the table. Fact indicates that table is Fact table with raw numbers and dim indicates that table is dimensional table, which contains extra information related to fact.
+Data should be split so that lakehouse contains data from one source system and for one data layer. For example ERP data should be put into own Lakehouse LH_BRONZE_ERP etc. If Lakehouse contains data from multiple sources, then it is adviceble to put 
+source system name into table name also.
+Examples of table names:
+Customers_dim
+Customers_fact
+YearSales_fact
+
+If source system needs to be added:
+Customers_ERP_dim
+Customers_CRM_dim
 
 
